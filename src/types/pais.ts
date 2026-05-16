@@ -4,6 +4,6 @@ export interface Pais {
   region: string;
   poblacion: number;
   urlBandera: string;
-  moneda: string[];
-  idioma: string[];
+  monedas: string[];
+  idiomas: string[];
 }

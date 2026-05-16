@@ -44,13 +44,13 @@ export default function ModalPais({ pais, onClose }: ModalPaisProps) {
           <div>
             <span className="font-semibold text-gray-700">Moneda(s):</span>{" "}
             <span className="text-gray-600">
-              {pais.moneda?.length > 0 ? pais.moneda.join(", ") : "No está disponible"}
+              {pais.monedas?.length > 0 ? pais.monedas.join(", ") : "No está disponible"}
             </span>
           </div>
           <div>
             <span className="font-semibold text-gray-700">Idioma(s):</span>{" "}
             <span className="text-gray-600">
-              {pais.idioma?.length > 0 ? pais.idioma.join(", ") : "No está disponible"}
+              {pais.idiomas?.length > 0 ? pais.idiomas.join(", ") : "No está disponible"}
             </span>
           </div>
         </div>
