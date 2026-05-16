@@ -61,7 +61,7 @@ export default function Home() {
             value={regionFiltro}
             onChange={(e) => setRegionFiltro(e.target.value)}
           >
-            <option value="">Todas las regiones</option>
+            <option value="">Todas los continentes</option>
             <option value="Africa">África</option>
             <option value="Americas">América</option>
             <option value="Asia">Asia</option>
