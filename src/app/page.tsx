@@ -47,7 +47,7 @@ export default function Home() {
         
         {!cargando && !error && (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">
-            {paises.slice(0, 12).map((pais) => (
+            {paises.slice(0).map((pais) => (
               <div 
                 key={pais.nombre} 
                 className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center"
