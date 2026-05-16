@@ -2,7 +2,7 @@ import { Pais } from "../types/pais";
 
 export const obtenerPaises = async (): Promise<Pais[]> => {
   try {
-    const respuesta = await fetch("https://restcountries.com/v3.1/all");
+    const respuesta = await fetch("https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags,currencies,languages");
 
     if (!respuesta.ok) {
       throw new Error("Error al conectar a la API de países");

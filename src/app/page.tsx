@@ -30,7 +30,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 p-8 text-gray-900">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold mb-8 text-center md:text-left">
-          Directorio de Países
+          Listado de Países
         </h1>
         
         {cargando && (
