@@ -13,7 +13,7 @@ export default function ModalPais({ pais, onClose }: ModalPaisProps) {
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50">
       <div className="bg-white rounded-lg shadow-xl max-w-md w-full p-6 relative">
         
-        //Boton de cierre
+        {/*Boton de cierre*/}
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 text-xl font-bold"
@@ -21,7 +21,7 @@ export default function ModalPais({ pais, onClose }: ModalPaisProps) {
           &times;
         </button>
 
-        //Parte superior con la bandera y el nombre del país
+        {/*Parte superior con la bandera y el nombre del país*/}
         <div className="flex flex-col items-center">
           <img
             src={pais.urlBandera}
@@ -31,7 +31,7 @@ export default function ModalPais({ pais, onClose }: ModalPaisProps) {
           <h2 className="text-2xl font-bold mb-4 text-center">{pais.nombre}</h2>
         </div>
 
-        //Informacion del país
+        {/*Informacion del país*/}
         <div className="space-y-3 text-sm border-t pt-4">
           <div>
             <span className="font-semibold text-gray-700">Región:</span>{" "}
