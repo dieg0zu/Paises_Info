@@ -1,5 +1,6 @@
 export interface Pais {
   nombre: string;
+  nombreEs: string;
   capital: string;
   region: string;
   poblacion: number;

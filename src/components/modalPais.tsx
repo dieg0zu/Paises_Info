@@ -5,7 +5,7 @@ interface ModalPaisProps {
   onClose: () => void;
 }
 
-// Componente de ventana modal con programación defensiva contra datos nulos.
+//Ventana modal contra datos nulos.
 export default function ModalPais({ pais, onClose }: ModalPaisProps) {
   if (!pais) return null;
 
@@ -25,7 +25,7 @@ export default function ModalPais({ pais, onClose }: ModalPaisProps) {
           </h2>
         </div>
 
-        {/*Información detallada blindada con encadenamiento opcional*/}
+        {/*Información detallada con encadenamiento opcional*/}
         <div className="space-y-3 text-sm border-t pt-4">
           <div>
             <span className="font-semibold text-gray-700">Región:</span>{" "}
